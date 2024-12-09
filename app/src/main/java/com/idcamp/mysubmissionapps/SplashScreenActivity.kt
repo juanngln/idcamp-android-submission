@@ -15,16 +15,16 @@ class SplashScreenActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_splash_screen)
 
-//        Handler(Looper.getMainLooper()).postDelayed({
-//            val intent = Intent(this@SplashScreenActivity, MainActivity::class.java)
-//            startActivity(intent)
-//            finish()
-//        }, 2000)
-
-        if (android.os.Build.VERSION.SDK_INT < android.os.Build.VERSION_CODES.S) {
-            startActivity(Intent(this, MainActivity::class.java))
+        Handler(Looper.getMainLooper()).postDelayed({
+            val intent = Intent(this@SplashScreenActivity, MainActivity::class.java)
+            startActivity(intent)
             finish()
-        }
+        }, 2000)
+
+//        if (android.os.Build.VERSION.SDK_INT < android.os.Build.VERSION_CODES.S) {
+//            startActivity(Intent(this, MainActivity::class.java))
+//            finish()
+//        }
 
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.splash_screen)) { v, insets ->
             val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())

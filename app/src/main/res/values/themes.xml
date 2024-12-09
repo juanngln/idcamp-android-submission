@@ -14,10 +14,5 @@
         <item name="colorPrimaryDark">@color/dark_blue</item>
     </style>
 
-    <style name="Theme.SplashScreen">
-        <item name="android:windowSplashScreenBackground" tools:targetApi="s">@color/white</item>
-        <item name="android:windowSplashScreenAnimatedIcon" tools:targetApi="s">@mipmap/ic_launcher_round</item>
-        <item name="android:windowSplashScreenAnimationDuration" tools:targetApi="s">2000</item>
-        <item name="android:windowSplashScreenBrandingImage" tools:targetApi="s">@mipmap/ic_launcher_round</item>
-    </style>
+    <style name="Theme.SplashScreen" parent="Theme.AppCompat.Light.NoActionBar" />
 </resources>
