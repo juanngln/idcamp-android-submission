@@ -1,0 +1,92 @@
+<resources>
+    <string name="app_name">Gamepedia</string>
+
+    <!-- Menu Item -->
+    <string name="menu_profile">Profile</string>
+    <string name="menu_share">Share</string>
+
+    <!-- Item Card -->
+    <string name="title">Nama Game</string>
+    <string name="description">Deskripsi Game</string>
+
+    <string-array name="game_name">
+        <item>Sekiro: Shadows Die Twice</item>
+        <item>Diablo IV</item>
+        <item>God Of War</item>
+        <item>Hades II</item>
+        <item>Final Fantasy VII Remake Intergrade</item>
+        <item>NieR: Automata</item>
+        <item>Warhammer 40000: Darktide</item>
+        <item>Dead Cells</item>
+        <item>Killing Floor 2</item>
+        <item>Ultrakill</item>
+    </string-array>
+
+    <string-array name="game_description">
+        <item>Game of the Year - The Game Awards 2019 Best Action Game of 2019 - IGN Carve your own clever path to vengeance in the award winning adventure from developer FromSoftware, creators of Bloodborne and the Dark Souls series. Take Revenge. Restore Your Honor. Kill Ingeniously.</item>
+        <item>Join the fight for Sanctuary in Diablo® IV, the ultimate action RPG adventure. Experience the critically acclaimed campaign and new seasonal content.</item>
+        <item>His vengeance against the Gods of Olympus years behind him, Kratos now lives as a man in the realm of Norse Gods and monsters. It is in this harsh, unforgiving world that he must fight to survive… and teach his son to do the same.</item>
+        <item>Battle beyond the Underworld using dark sorcery to take on the Titan of Time in this bewitching sequel to the award-winning rogue-like dungeon crawler.</item>
+        <item>Cloud Strife, an ex-SOLDIER operative, descends on the mako-powered city of Midgar. The world of the timeless classic FINAL FANTASY VII is reborn, using cutting-edge graphics technology, a new battle system and an additional adventure featuring Yuffie Kisaragi.</item>
+        <item>NieR: Automata tells the story of androids 2B, 9S and A2 and their battle to reclaim the machine-driven dystopia overrun by powerful machines.</item>
+        <item>Take back the city of Tertium from hordes of bloodthirsty foes in this intense and brutal action shooter. Warhammer 40,000: Darktide is the new co-op focused experience from the award-winning team behind the Vermintide series. As Tertium falls, Rejects Will Rise.</item>
+        <item>Dead Cells is a roguelite, metroidvania inspired, action-platformer. You\'ll explore a sprawling, ever-changing castle… assuming you’re able to fight your way past its keepers in 2D souls-lite combat. No checkpoints. Kill, die, learn, repeat.</item>
+        <item>In KILLING FLOOR 2, players descend into continental Europe after it has been overrun by horrific, murderous clones called Zeds that were created by rogue elements of the Horzine Corporation. 6-player Co-Op &amp; 12-player VS Zed-slaughtering mayhem.</item>
+        <item>ULTRAKILL is a fast-paced ultraviolent retro FPS combining the skill-based style scoring from character action games with unadulterated carnage inspired by the best shooters of the \'90s. Rip apart your foes with varied destructive weapons and shower in their blood to regain your health.</item>
+    </string-array>
+
+    <integer-array name="game_picture">
+        <item>@drawable/sekiro</item>
+        <item>@drawable/diablo</item>
+        <item>@drawable/god_of_war</item>
+        <item>@drawable/hades</item>
+        <item>@drawable/final_fantasy</item>
+        <item>@drawable/nier</item>
+        <item>@drawable/warhammer</item>
+        <item>@drawable/dead_cells</item>
+        <item>@drawable/killing_floor</item>
+        <item>@drawable/ultrakill</item>
+    </integer-array>
+
+    <!-- Detail Page -->
+    <string name="title_name">Game Name</string>
+    <string name="title_release_date">Release Date</string>
+    <string name="game_release_date">release date</string>
+    <string name="title_developer">Developer</string>
+    <string name="game_developer">developer</string>
+    <string name="title_description">Description</string>
+    <string name="game_description">description</string>
+
+    <string-array name="game_release_date">
+        <item>22 Mar, 2019</item>
+        <item>18 Oct, 2023</item>
+        <item>14 Jan, 2022</item>
+        <item>6 May, 2024</item>
+        <item>17 Jun, 2022</item>
+        <item>17 Mar, 2017</item>
+        <item>1 Dec, 2022</item>
+        <item>7 Aug, 2018</item>
+        <item>18 Nov, 2016</item>
+        <item>3 Sep, 2020</item>
+    </string-array>
+
+    <string-array name="game_developer">
+        <item>FromSoftware, Inc.</item>
+        <item>Blizzard Entertainment, Inc.</item>
+        <item>Santa Monica Studio\nJetpack Interactive</item>
+        <item>Supergiant Games</item>
+        <item>Square Enix</item>
+        <item>Square Enix\nPlatinumGames Inc.</item>
+        <item>Fatshark</item>
+        <item>Motion Twin</item>
+        <item>Tripwire Interactive</item>
+        <item>Arsi "Hakita" Patala</item>
+    </string-array>
+
+    <!-- Profile Page -->
+    <string name="name">Juan Jonathan Nainggolan</string>
+    <string name="email">juanjonathan05@gmail.com</string>
+    <string name="title_activity_splash_screen">SplashScreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+</resources>
